@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div></div>
+
+    <div ng-controller="getOpinionCtrl">
+
+        <img id="POZADINACela" ng-style="{'height':'100%','width':'auto'}" ng-src="{{getopinion[76].imageUrl}}">
+
+        
+        <img id="linija" ng-src="{{getopinion[12].imageUrl}}">
+
+
+
+
+
+        
+
+        <!--<a href="#/splash-gowemy" class="thumb">
+        </a>-->
+        <img  ng-src="{{OCENJENASLIKA}}" class="horizontal" orientable />
+        <!--<img id="wemyLogoVeliki" ng-style="{'top':'12%', 'width':'30%'}" ng-src="{{getopinion[3].imageUrl}}" ng-click="goToPage1('/partials/streamresults')">-->
+
+        <!--<a href="#/partials/streamresults" class="thumb">
+        </a>-->
+
+        <img id="maskaDiamond" ng-src="{{getopinion[68].imageUrl}}">
+
+        <div id="LoginTextHeader" ng-style="{'top':'77%','left':'-6%','font-size': HASHTAGtextsize}"># {{HASHTAG}} </div>
+        <!--<a href="#/partials/results" class="thumb">
+        </a>-->
+        <!--<img id="menuBtn" ng-click="toggle()" ng-src="{{getopinion[6].imageUrl}}">
+
+
+        <div id="UsernameTextHeader">{{BETAUSER}}</div>
+
+
+        <div ng-hide="toggleVar" id="svelinije1">
+
+
+            <img id="menuPozadina" ng-src="{{getopinion[13].imageUrl}}">
+
+            <p id="opcija1">Take a picture</p>
+            <img id="linija2" ng-src="{{getopinion[12].imageUrl}}">
+
+            <a href="#/partials/streamresults" class="thumb">
+                <p id="opcija2">Vote</p>
+            </a>
+            <img id="linija3" ng-src="{{getopinion[12].imageUrl}}">
+            <p id="opcija3">My pictures</p>
+            <img id="linija4" ng-src="{{getopinion[12].imageUrl}}">
+            <a href="#/partials/results" class="thumb"><p id="opcija4">Followers</p></a>
+            <img id="linija5" ng-src="{{getopinion[12].imageUrl}}">
+            <p id="opcija5">Profile</p>
+            <img id="linija6" ng-src="{{getopinion[12].imageUrl}}">
+            <p id="opcija6">Following</p>
+            <img id="linija7" ng-src="{{getopinion[12].imageUrl}}">
+            <a href="#/partials/about-screen" class="thumb"><p id="opcija7">About</p></a>-->
+
+
+
+
+
+
+
+
+        <div ng-controller="60secresultCtrl">
+
+            <!--<div id="UsernameTextHeader" ng-style="{'font-size': FontUsernameHeader}" ng-click="PROVERIOCENU()">{{BETAUSER}}</div>-->
+
+            
+
+            <!--<div id="COUNTDOWN">{{countDown_text}}</div>-->
+
+
+
+            <!--<div ng-hide="toggleVar" id="svelinije1">-->
+
+
+                <!--<img id="menuPozadina" ng-src="{{getopinion[13].imageUrl}}">
+
+        <p id="opcija1">Take a picture</p>
+        <img id="linija2" ng-src="{{getopinion[12].imageUrl}}">
+
+        <a href="#/partials/streamresults" class="thumb">
+            <p id="opcija2">Vote</p>
+        </a>
+        <img id="linija3" ng-src="{{getopinion[12].imageUrl}}">
+        <p id="opcija3">My pictures</p>
+        <img id="linija4" ng-src="{{getopinion[12].imageUrl}}">
+        <a href="#/partials/results" class="thumb"><p id="opcija4">Followers</p></a>
+        <img id="linija5" ng-src="{{getopinion[12].imageUrl}}">
+        <p id="opcija5">Profile</p>
+        <img id="linija6" ng-src="{{getopinion[12].imageUrl}}">
+        <p id="opcija6">Following</p>
+        <img id="linija7" ng-src="{{getopinion[12].imageUrl}}">
+        <a href="#/partials/about-screen" class="thumb"><p id="opcija7">About</p></a>-->
+
+
+                <!--'position':'inherit',-->
+                <!--'position':'fixed',-->
+            <!--</div>-->
+
+            
+            
+            
+            <!--<div id="PROCENTI">
+
+
+                <div ng-style="{'top':'15%','left':'30%'}">
+                    Statistics:
+
+                </div>
+
+                <div ng-style="{'top':'30%','left':'30%'}">
+                    PLUS votes {{PLUSMINUSODGOVOR.plus}}
+                    
+                </div>
+
+                <div ng-style="{'top':'40%','left':'30%'}">
+                    
+                    {{OcenaProcentiPlus}} *
+                </div>
+
+                <div ng-style="{'top':'50%','left':'30%','color':'#8e4039'}">
+                    MINUS votes {{PLUSMINUSODGOVOR.minus}}
+                    
+                </div>
+
+                <div ng-style="{'top':'60%','left':'30%','color':'#8e4039'}">
+                    
+                    {{OcenaProcentiMinus}} *
+                </div>
+                
+                
+                <div ng-style="{'top':'80%','left':'30%',,'font-size':'large'}">
+                    {{PLUSMINUSODGOVOR.plus}} out of {{ZbirPluMinus}} people liked it.
+                </div>
+            </div>-->
+            <img id="ZATAMNJENJE1" ng-style="{'width':'130%','top':'6%','opacity':'0.6'}" ng-src="{{getopinion[71].imageUrl}}">
+            <div id="PROCENTI" ng-style="{'top':'85%','text-align':'center','font-size': FontUsernameHeader}">
+                {{PLUSMINUSODGOVOR.plus}} out of {{ZbirPluMinus}} people liked it.
+            </div>
+
+            <div ng-class="{'CRVENO': CRVENOZELENO==true}">
+                <div id="PROCENTI" ng-style="{'top':'14%','text-align':'center','left':'0%','font-size':FontUsernameHeader}" >
+                    {{PercentMessage}}
+
+                </div>
+            </div>
+
+            <div ng-show="CRVENOZELENO==false">
+                <div id="PROCENTI" ng-style="{'top':'40%','text-align':'center','left':'31%','font-size':FontGetOpinionProcenti}">
+                    {{USERMARKOcena}}
+
+                </div>
+            </div>
+
+                <div ng-show="CRVENOZELENO==true">
+                    <div id="PROCENTI" ng-style="{'top':'40%','text-align':'center','left':'31%','font-size':FontGetOpinionProcenti,'color':'#e64c3c'}">
+                        {{USERMARKOcena}}
+
+                    </div>
+                </div>
+
+                <div ng-show="TRUEARCSHOW==true">
+
+                    <div id="ParentPunjenje" ng-style="{ '-webkit-transform-origin': '50% 50%',
+
+             '-moz-transform-origin': '50% 50%',
+             '-ms-transform-origin': '50% 50%',
+             '-o-transform-origin': '50% 50%',
+             'transform-origin': '50% 50%',
+                'transform': LUKrotacija, '-webkit-transform': LUKrotacija, '-ms-transform': LUKrotacija,'top':YY, 'left':XX}">
+
+                        <div id="ARCpunjenje" round-progress
+                             max="120"
+                             current="LUKprocenti"
+                             color="url(#gradient)"
+                             bgcolor="#231f20"
+                             radius="{{KRUGPRECNIK}}"
+                             stroke="{{KRUGSTROKE}}"
+                             semi="false"
+                             rounded="true"
+                             clockwise="false"
+                             responsive="true"
+                             iterations="150"
+                             animation="easeInOutSine">
+
+                            <svg>
+                                <linearGradient id="gradient" x1="1" x2="0" y1="0" y2="0">
+                                    <stop offset="20%" stop-color="#8e4039" />
+                                    <stop offset="100%" stop-color="#b0d138" />
+                                </linearGradient>
+                            </svg>
+
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            <div ng-show="styletrueGRUPA">
+
+                <img id="ZATAMNJENJE1" ng-style="{'width':'130%','top':'0%','opacity':'0.6' }" ng-src="{{getopinion[71].imageUrl}}" ng-click="styletrue=!styletrue;ZatvaranjeMenija();">
+
+                <div ng-show="UMETNUTO==true">
+                    <img ng-class="{'USERPICTURESLOTklasaportret1': styletrue==true,'USERPICTURESLOTklasaportret1OUT': styletrue==false }" ng-style="{'height':VISINASLIKEmalimeni,'width':'auto'}" src="{{UserSlikaURLdobijen}}">
+                </div>
+
+                <div ng-show="UMETNUTO==false">
+                    <img ng-class="{'USERPICTURESLOTklasaportret1': styletrue==true,'USERPICTURESLOTklasaportret1OUT': styletrue==false }" ng-style="{'height':'14%','width':'auto','top':'10%'}" ng-src="{{getopinion[77].imageUrl}}">
+                </div>
+
+
+
+                <div ng-class="{'menuPozadina1': styletrue==true,'menuPozadina1OUT': styletrue==false }">
+
+                    <div id="UsernameTextHeadermenu" ng-style="{'font-size': FontUsernameHeader2}" ng-click="goToPage4('/partials/userprofile')">{{BETAUSER}}</div>
+
+                    <!--<img ng-style="{'width':'100%'}" ng-src="{{getopinion[51].imageUrl}}">-->
+
+
+
+
+
+                    <img ng-style="{'width':'100%'}" ng-src="{{getopinion[51].imageUrl}}">
+
+
+
+                    <!--<img id="menuDUGMICI" ng-style="{'top':'24.5%'}" ng-src="{{getopinion[47].imageUrl}}" ng-click="goToPage('/partials/discoveryPref')">-->
+                    <img id="menuDUGMICI" ng-style="{'top':'30%'}" ng-src="{{getopinion[49].imageUrl}}" ng-click="goToPage4('/partials/appsettings')">
+                    <div id="menuDUGMICI" ng-style="{'top':'30%','width':'45%', 'font-color':'white', 'opacity':'0'}" ng-click="goToPage4('/partials/appsettings')">LINKKASUPPORTUUUUU</div>
+
+
+                    <img id="menuDUGMICI" ng-style="{'top':'45.5%'}" ng-src="{{getopinion[48].imageUrl}}">
+                    <div id="menuDUGMICI" ng-style="{'top':'45.5%','width':'45%', 'font-color':'white', 'opacity':'0'}"><a href="http://gowemy.com/support">LINKKASUPPORTU</a></div>
+
+
+
+
+                    <img id="menuDUGMICI" ng-style="{'top':'61.5%'}" ng-src="{{getopinion[50].imageUrl}}" ng-click="goToPage4('/partials/shareGowemy')">
+                    <div id="menuDUGMICI" ng-style="{'top':'61.5%','width':'45%', 'font-color':'white', 'opacity':'0'}" ng-click="goToPage4('/partials/shareGowemy')">LINKKASUPPORTUUUUU</div>
+
+
+                    <img id="menuDUGMICI" ng-style="{'top':'76.5%'}" ng-src="{{getopinion[46].imageUrl}}" ng-click="goToPage4('/partials/about-screen')">
+                    <div id="menuDUGMICI" ng-style="{'top':'76.5%','width':'45%', 'font-color':'white', 'opacity':'0'}" ng-click="goToPage4('/partials/about-screen')">LINKKASUPPORTUUUUU</div>
+
+                </div>
+            </div>
+
+
+ 
+
+
+            </div>
+        <img id="ActionBarPozadina" ng-src="{{getopinion[70].imageUrl}}">
+
+        
+
+        <!--<img id="gobackBtn" ng-src="{{getopinion[0].imageUrl}}" ng-click="goToPage1('/partials/streamresults')">-->
+
+        <img id="foticBtn" ng-style="{ 'opacity' : (styletrueFotic==true) ? '1' : '0.5' }" ng-src="{{getopinion[10].imageUrl}}" ng-click="styletrueFotic=!styletrueFotic;goToPage1('/partials/results')">
+
+
+
+        <img id="manjiLogoE" ng-style="{ 'opacity' : (styletrueLogoE==true) ? '1' : '0.5' }" ng-src="{{getopinion[69].imageUrl}}" ng-click="styletrueLogoE=!styletrueLogoE;goToPage1('/partials/streamresults')">
+
+
+
+        <img id="menuBtn" ng-style="{ 'opacity' : (styletrue==true) ? '1' : '0.5' }" ng-click="styletrue=!styletrue;ZatvaranjeMenija();" ng-src="{{getopinion[6].imageUrl}}">
+
+
+    </div>
+
+
+
+</body>
+</html>

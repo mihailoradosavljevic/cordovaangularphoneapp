@@ -1,0 +1,623 @@
+[
+  {
+    "id": "1",
+    "imageUrl": "images/button_go_back.png",
+    "name": "GOWEMY splash1",
+    "description": "This is 1st screen"
+  },
+
+  {
+    "id": "2",
+    "imageUrl": "images/button_take_a_tour.png",
+    "name": "GOWEMY About",
+    "description": "This is About screen"
+  },
+
+    {
+    "id": "3",
+    "imageUrl": "images/GoWemy_logo_manji.png",
+    "name": "GOWEMY logo manji levo",
+    "description": "This is little logo"
+  },
+
+
+  {
+    "id": "4",
+    "imageUrl": "images/GoWemy_logo.png",
+    "name": "GOWEMY veliki logo",
+    "description": "This is big logo"
+  },
+
+  {
+    "id": "5",
+    "imageUrl": "images/button_facebook.png",
+    "name": "GOWEMY facebook btn",
+    "description": "facebook btn"
+  },
+
+  {
+    "id": "6",
+    "imageUrl": "images/button_login.png",
+    "name": "GOWEMY login btn",
+    "description": "login btn"
+  },
+  
+    {
+    "id": "7",
+    "imageUrl": "images/ikona_menu.png",
+    "name": "GOWEMY menu btn",
+    "description": "menu btn"
+  },
+
+        {
+    "id": "8",
+    "imageUrl": "images/button_like.png",
+    "name": "GOWEMY like btn",
+    "description": "like btn"
+  },
+
+  {
+    "id": "9",
+    "imageUrl": "images/button_nope.png",
+    "name": "GOWEMY nope btn",
+    "description": "nope btn"
+  },
+
+
+    {
+    "id": "10",
+    "imageUrl": "images/ikona_fotic.png",
+    "name": "GOWEMY mali photo btn",
+    "description": "mali photo btn"
+  },
+
+
+  {
+    "id": "11",
+    "imageUrl": "images/wemy_fotic.png",
+    "name": "GOWEMY veliki photo btn",
+    "description": "veliki photo btn"
+  },
+
+
+  {
+    "id": "12",
+    "imageUrl": "images/strana_6about.png",
+    "name": "GOWEMY mala slika about",
+    "description": "mala slika about"
+  },
+
+  {
+    "id": "13",
+    "imageUrl": "images/linija.png",
+    "name": "GOWEMY linija",
+    "description": "linija"
+  },
+  {
+    "id": "14",
+    "imageUrl": "images/pozadina_zelena.png",
+    "name": "GOWEMY linija",
+    "description": "linija"
+  },
+
+  {
+    "id": "15",
+    "imageUrl": "images/ikona_ne.png",
+    "name": "GOWEMY ikona ne",
+    "description": "ikona ne"
+  },
+
+  {
+    "id": "16",
+    "imageUrl": "images/ikona_da.png",
+    "name": "GOWEMY ikona da",
+    "description": "ikona DA"
+  },
+    {
+    "id": "17",
+    "imageUrl": "images/button_signup.png",
+    "name": "GOWEMY ikona signup",
+    "description": "ikona signup"
+  },
+    {
+    "id": "18",
+    "imageUrl": "images/action_bracket.png",
+    "name": "GOWEMY ikona action_bracket",
+    "description": "ikona action_bracket"
+  },
+    {
+    "id": "19",
+    "imageUrl": "images/button_login_page.png",
+    "name": "GOWEMY button_login_page",
+    "description": "button_login_page"
+  },
+    {
+    "id": "20",
+    "imageUrl": "images/okvir_input_field.png",
+    "name": "GOWEMY okvir_input_field",
+    "description": "okvir_input_field"
+  },
+  {
+    "id": "21",
+    "imageUrl": "images/button_signup_signupPage.png",
+    "name": "GOWEMY button_signup_signupPage",
+    "description": "button_signup_signupPage"
+  },
+  {
+    "id": "22",
+    "imageUrl": "images/action_bracket_followers.png",
+    "name": "action_bracket_followers.png",
+    "description": "action_bracket_followers.png"
+  },
+    {
+    "id": "23",
+    "imageUrl": "images/action_bracket_following.png",
+    "name": "action_bracket_following.png",
+    "description": "action_bracket_following.png"
+  },
+
+
+
+
+
+  
+        {
+    "id": "24",
+    "imageUrl": "images/action_bracket_mypictures.png",
+    "name": "action_bracket_mypictures.png",
+    "description": "action_bracket_mypictures.png"
+  },
+  
+        {
+    "id": "25",
+    "imageUrl": "images/action_bracket_search.png",
+    "name": "action_bracket_search.png",
+    "description": "action_bracket_search.png"
+  },
+  
+        {
+    "id": "26",
+    "imageUrl": "images/button_accaunt.png",
+    "name": "action_bracket_following.png",
+    "description": "action_bracket_following.png"
+  },
+  
+        {
+    "id": "27",
+    "imageUrl": "images/button_BIG_flash.png",
+    "name": "button_BIG_flash.png",
+    "description": "button_BIG_flash.png"
+  },
+
+  
+        {
+    "id": "28",
+    "imageUrl": "images/button_BIG_getopinion.png",
+    "name": "button_BIG_getopinion.png",
+    "description": "button_BIG_getopinion.png"
+  },
+  
+        {
+    "id": "29",
+    "imageUrl": "images/button_BIG_photo.png",
+    "name": "button_BIG_photo.png",
+    "description": "button_BIG_photo.png"
+  },
+  
+        {
+    "id": "30",
+    "imageUrl": "images/button_BIG_selectimage.png",
+    "name": "button_BIG_selectimage.png",
+    "description": "button_BIG_selectimage.png"
+  },
+
+  
+        {
+    "id": "31",
+    "imageUrl": "images/button_BIG_turnpicture.png",
+    "name": "button_BIG_turnpicture.png",
+    "description": "button_BIG_turnpicture.png"
+  },
+  
+        {
+    "id": "32",
+    "imageUrl": "images/button_follow.png",
+    "name": "button_follow.png",
+    "description": "button_follow.png"
+  },
+  
+        {
+    "id": "33",
+    "imageUrl": "images/button_followers.png",
+    "name": "button_followers.png",
+    "description": "button_followers.png"
+  },
+  
+        {
+    "id": "34",
+    "imageUrl": "images/button_following.png",
+    "name": "button_following.png",
+    "description": "button_following.png"
+  },
+  
+        {
+    "id": "35",
+    "imageUrl": "images/button_garbage.png",
+    "name": "button_garbage.png",
+    "description": "button_garbage.png"
+  },
+  
+        {
+    "id": "36",
+    "imageUrl": "images/button_getopinion.png",
+    "name": "button_getopinion.png",
+    "description": "button_getopinion.png"
+  },
+
+  
+        {
+    "id": "37",
+    "imageUrl": "images/button_LIKELIKE.png",
+    "name": "button_LIKELIKE.png",
+    "description": "button_LIKELIKE.png"
+  },
+
+  
+        {
+    "id": "38",
+    "imageUrl": "images/button_LIKEPLUS.png",
+    "name": "button_LIKEPLUS.png",
+    "description": "button_LIKEPLUS.png"
+  },
+  
+        {
+    "id": "39",
+    "imageUrl": "images/button_mypictures.png",
+    "name": "button_mypictures.png",
+    "description": "button_mypictures.png"
+  },
+  
+        {
+    "id": "40",
+    "imageUrl": "images/button_NOPENOPE.png",
+    "name": "button_NOPENOPE.png",
+    "description": "button_NOPENOPE.png"
+  },
+
+  
+        {
+    "id": "41",
+    "imageUrl": "images/button_signup_signupPage.png",
+    "name": "button_signup_signupPage.png",
+    "description": "button_signup_signupPage.png"
+  },
+  
+        {
+    "id": "42",
+    "imageUrl": "images/button_UNLIKEMINUS.png",
+    "name": "button_UNLIKEMINUS.png",
+    "description": "button_UNLIKEMINUS.png"
+  },
+  
+        {
+    "id": "43",
+    "imageUrl": "images/buttonfinish_signup_confirmation_page.png",
+    "name": "buttonfinish_signup_confirmation_page.png",
+    "description": "buttonfinish_signup_confirmation_page.png"
+  },
+
+  
+        {
+    "id": "44",
+    "imageUrl": "images/buttonselectimage_signup_confirmation_page.png",
+    "name": "buttonselectimage_signup_confirmation_page.png",
+    "description": "buttonselectimage_signup_confirmation_page.png"
+  },
+  
+        {
+    "id": "45",
+    "imageUrl": "images/buttontakephoto_signup_confirmation_page.png",
+    "name": "buttontakephoto_signup_confirmation_page.png",
+    "description": "buttontakephoto_signup_confirmation_page.png"
+  },
+  
+        {
+    "id": "46",
+    "imageUrl": "images/dilaogbox_HASHTAG.png",
+    "name": "dilaogbox_HASHTAG.png",
+    "description": "dilaogbox_HASHTAG.png"
+  },
+
+  
+        {
+    "id": "47",
+    "imageUrl": "images/menu_BUTTON_diamond.png",
+    "name": "menu_BUTTON_diamond.png",
+    "description": "menu_BUTTON_diamond.png"
+  },
+  
+        {
+    "id": "48",
+    "imageUrl": "images/menu_BUTTON_discoveryPref.png",
+    "name": "menu_BUTTON_discoveryPref.png",
+    "description": "menu_BUTTON_discoveryPref.png"
+  },
+  
+        {
+    "id": "49",
+    "imageUrl": "images/menu_BUTTON_help.png",
+    "name": "menu_BUTTON_help.png",
+    "description": "menu_BUTTON_help.png"
+  },
+
+  
+        {
+    "id": "50",
+    "imageUrl": "images/menu_BUTTON_settings.png",
+    "name": "menu_BUTTON_settings.png",
+    "description": "menu_BUTTON_settings.png"
+  },
+  
+        {
+    "id": "51",
+    "imageUrl": "images/menu_BUTTON_share.png",
+    "name": "menu_BUTTON_share.png",
+    "description": "menu_BUTTON_share.png"
+  },
+
+  
+        {
+    "id": "52",
+    "imageUrl": "images/MENU_gowemy.png",
+    "name": "MENU_gowemy.png",
+    "description": "MENU_gowemy.png"
+  },
+
+  
+        {
+    "id": "53",
+    "imageUrl": "images/okvirabout_signup_confirmation_page.png",
+    "name": "okvirabout_signup_confirmation_page.png",
+    "description": "okvirabout_signup_confirmation_page.png"
+  },
+  
+        {
+    "id": "54",
+    "imageUrl": "images/okvirbirthday_signup_confirmation_page.png",
+    "name": "okvirbirthday_signup_confirmation_page.png",
+    "description": "okvirbirthday_signup_confirmation_page.png"
+  },
+  
+        {
+    "id": "55",
+    "imageUrl": "images/okvircountry_signup_confirmation_page.png",
+    "name": "okvircountry_signup_confirmation_page.png",
+    "description": "okvircountry_signup_confirmation_page.png"
+  },
+  
+        {
+    "id": "56",
+    "imageUrl": "images/okvirgender_signup_confirmation_page.png",
+    "name": "okvirgender_signup_confirmation_page.png",
+    "description": "okvirgender_signup_confirmation_page.png"
+  },
+
+  
+        {
+    "id": "57",
+    "imageUrl": "images/okvirslikaprazan_signup_confirmation_page.png",
+    "name": "okvirslikaprazan_signup_confirmation_page.png",
+    "description": "okvirslikaprazan_signup_confirmation_page.png"
+  },
+  
+        {
+    "id": "58",
+    "imageUrl": "images/okvirslikapun_mypictures_page.png",
+    "name": "okvirslikapun_mypictures_page.png",
+    "description": "okvirslikapun_mypictures_page.png"
+  },
+  
+        {
+    "id": "59",
+    "imageUrl": "images/okvirslikapun_signup_confirmation_page.png",
+    "name": "okvirslikapun_signup_confirmation_page.png",
+    "description": "okvirslikapun_signup_confirmation_page.png"
+  },
+  
+        {
+    "id": "60",
+    "imageUrl": "images/olovka_action_bracket.png",
+    "name": "olovka_action_bracket.png",
+    "description": "olovka_action_bracket.png"
+  },
+
+  
+        {
+    "id": "61",
+    "imageUrl": "images/polukrug.png",
+    "name": "polukrug.png",
+    "description": "polukrug.png"
+  },
+  
+        {
+    "id": "62",
+    "imageUrl": "images/polukrug_findingpeople.png",
+    "name": "polukrug_findingpeople.png",
+    "description": "polukrug_findingpeople.png"
+  },
+  
+        {
+    "id": "63",
+    "imageUrl": "images/pozadina_GETOPINION_emenu.png",
+    "name": "pozadina_GETOPINION_emenu.png",
+    "description": "pozadina_GETOPINION_emenu.png"
+  },
+  
+        {
+    "id": "64",
+    "imageUrl": "images/pozadina15biofollowfollowers.png",
+    "name": "pozadina15biofollowfollowers.png",
+    "description": "pozadina15biofollowfollowers.png"
+  },
+
+
+  
+        {
+    "id": "65",
+    "imageUrl": "images/SLIKE ABOUT SLIDE1.png",
+    "name": "SLIKE ABOUT SLIDE1.png",
+    "description": "SLIKE ABOUT SLIDE1.png"
+  },
+  
+        {
+    "id": "66",
+    "imageUrl": "images/SLIKE ABOUT SLIDE2.png",
+    "name": "SLIKE ABOUT SLIDE2.png",
+    "description": "SLIKE ABOUT SLIDE2.png"
+  },
+  
+        {
+    "id": "67",
+    "imageUrl": "images/SLIKE ABOUT SLIDE3.png",
+    "name": "SLIKE ABOUT SLIDE3.png",
+    "description": "SLIKE ABOUT SLIDE3.png"
+  },
+  
+        {
+    "id": "68",
+    "imageUrl": "images/SLIKE ABOUT SLIDE4.png",
+    "name": "SLIKE ABOUT SLIDE4.png",
+    "description": "SLIKE ABOUT SLIDE4.png"
+  },
+
+  
+        {
+    "id": "69",
+    "imageUrl": "images/transparentmaska.png",
+    "name": "transparentmaska.png",
+    "description": "transparentmaska.png"
+  },
+
+
+  {
+    "id": "70",
+    "imageUrl": "images/wemy_actionbar.png",
+    "name": "wemy_actionbar.png",
+    "description": "wemy_actionbar.png"
+  },
+
+
+  
+        {
+    "id": "71",
+    "imageUrl": "images/ActionBarPozadina.png",
+    "name": "ActionBarPozadina.png",
+    "description": "ActionBarPozadina.png"
+  },
+
+  
+        {
+    "id": "72",
+    "imageUrl": "images/zatamnjenje.png",
+    "name": "zatamnjenje.png",
+    "description": "zatamnjenje.png"
+  }
+        ,
+          {
+    "id": "73",
+    "imageUrl": "images/dilaogbox_GENERAL.png",
+    "name": "dilaogbox_GENERAL.png",
+    "description": "dilaogbox_GENERAL.png"
+  },
+          {
+    "id": "74",
+    "imageUrl": "images/e_logo.png",
+    "name": "e_logo.png",
+    "description": "e_logo.png"
+  },
+          {
+    "id": "75",
+    "imageUrl": "images/button_ZELENOflat.png",
+    "name": "button_ZELENOflat.png",
+    "description": "button_ZELENOflat.png"
+  },
+          {
+    "id": "76",
+    "imageUrl": "images/pozadina_crna-saRupom.png",
+    "name": "pozadina_crna-saRupom.png",
+    "description": "pozadina_crna-saRupom.png"
+  },
+          {
+    "id": "77",
+    "imageUrl": "images/pozadina_crna.png",
+    "name": "pozadina_crna.png",
+    "description": "pozadina_crna.png"
+  },
+          {
+    "id": "78",
+    "imageUrl": "images/ikona_upload_photo1.png",
+    "name": "ikona_upload_photo1.png",
+    "description": "ikona_upload_photo1.png"
+  }
+          ,
+          {
+    "id": "79",
+    "imageUrl": "images/pozadina_crnaSADONJOMRUPOM1.png",
+    "name": "pozadina_crnaSADONJOMRUPOM1.png",
+    "description": "pozadina_crnaSADONJOMRUPOM1.png"
+  },
+          {
+    "id": "80",
+    "imageUrl": "images/pozadina_crnaVELIKARUPA.png",
+    "name": "pozadina_crnaVELIKARUPA.png",
+    "description": "pozadina_crnaVELIKARUPA.png"
+  },
+          {
+    "id": "81",
+    "imageUrl": "images/polukrugARCSIVI.png",
+    "name": "polukrugARCSIVI.png",
+    "description": "polukrugARCSIVI.png"
+  },
+          {
+    "id": "82",
+    "imageUrl": "images/button_LOGOUT.png",
+    "name": "polukrugARCSIVI.png",
+    "description": "polukrugARCSIVI.png"
+  },
+          {
+    "id": "83",
+    "imageUrl": "images/button_PRIVACY POLICY.png",
+    "name": "polukrugARCSIVI.png",
+    "description": "polukrugARCSIVI.png"
+  },
+          {
+    "id": "84",
+    "imageUrl": "images/button_TERMSOFSERVICE.png",
+    "name": "polukrugARCSIVI.png",
+    "description": "polukrugARCSIVI.png"
+  },
+          {
+    "id": "85",
+    "imageUrl": "images/button_deleteaccount.png",
+    "name": "polukrugARCSIVI.png",
+    "description": "polukrugARCSIVI.png"
+  }
+           ,
+          {
+    "id": "86",
+    "imageUrl": "images/GoWemy_logoSIVIsolo.png",
+    "name": "polukrugARCSIVI.png",
+    "description": "polukrugARCSIVI.png"
+  }
+          
+          
+
+          
+
+
+
+
+
+
+
+]

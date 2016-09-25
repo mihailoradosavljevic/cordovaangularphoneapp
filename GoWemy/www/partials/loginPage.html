@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div></div>
+
+
+    <div ng-controller="loginController">
+        <img id="POZADINACela" ng-style="{'height':'100%','width':'auto'}" ng-src="{{loginData[76].imageUrl}}">
+        <img id="ActionBarPozadina" ng-src="{{loginData[70].imageUrl}}">
+
+        <!--<a href="#/splash-gowemy" class="thumb"></a>-->
+        
+        <img id="actionBracket" ng-src="{{loginData[17].imageUrl}}" ng-click="GOTOSPLASH1()">
+            <img id="linija" ng-src="{{loginData[12].imageUrl}}">
+
+        <div id="LoginTextHeader" ng-style="{'font-size': HeaderText,'top':'2.4%'}">Login</div>
+
+        
+
+            <img id="okvirInputFieldEmail" ng-src="{{loginData[19].imageUrl}}">
+            <input ng-model="userEmail" type="text" id="useremail" ng-style="{'font-size': FontSignupLoginTextBoxes}" placeholder="Username" />
+
+            <img id="okvirInputFieldPassword" ng-src="{{loginData[19].imageUrl}}">
+            <input ng-model="userPassword" type="text" id="userpassword" ng-style="{'font-size': FontSignupLoginTextBoxes}" placeholder="Password" />
+
+        <!--<a href="#/partials/get-opinion" class="thumb">-->
+
+        <img id="buttonLoginPage" ng-src="{{loginData[18].imageUrl}}" ng-click="checkLogin()">
+        
+        <!--</a>-->
+
+        <!--<br/>
+        
+        ODGOVOR :   {{ODGOVOR}}
+        <br />
+        ODGOVOR.user[0].username: {{ODGOVOR.user[0].username}}
+        <br />
+        ODGOVOR.user[0].userid: {{ODGOVOR.user[0].userid}}
+        <br />
+        ODGOVOR1.username: {{ODGOVOR1.username}}
+        <br />
+        ODGOVOR1.user.userid : {{ODGOVOR1.userid}}
+        <br />
+        USERNAME --- {{BETAUSER}}
+        <br />
+        USERID --- {{BETAUSERID}}-->
+
+        <!--{{ODGOVOR.token}}-->
+        <!--{{dataUSERSput.token}}-->
+        <!--{{USERTOKEN}}-->
+
+</div>
+
+
+
+
+
+</body>
+</html>

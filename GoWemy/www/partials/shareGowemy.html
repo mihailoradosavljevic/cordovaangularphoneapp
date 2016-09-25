@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+
+
+
+
+
+
+    <div></div>
+
+    <div ng-controller="getOpinionCtrl">
+        <img id="POZADINACela" ng-style="{'height':'100%','width':'auto'}" ng-src="{{getopinion[76].imageUrl}}">
+
+
+
+        <img id="ActionBarPozadina" ng-src="{{getopinion[70].imageUrl}}">
+
+
+        <img id="linija" ng-src="{{getopinion[12].imageUrl}}">
+
+        <div id="LoginTextHeader" ng-style="{'top':'2.2%', 'left':'9%'}">Share Gowemy</div>
+
+        <img id="actionBracket" ng-src="{{getopinion[17].imageUrl}}" ng-click="goBackPageShareGoWemy()">
+
+
+        
+
+
+        <img id="menuBtn" ng-style="{ 'top':'2.4%','left' : '9%','opacity':'1' }" ng-src="{{getopinion[50].imageUrl}}">
+
+        <!--<div ng-controller="appsettingsController">
+
+            <div ng-show="ShowPrivacyPolicy==false && ShowTermsOfService==false && NODELETEBETAACCOUNT==false">
+                <img id="okvirInputFieldEmailsignup" ng-style="{'top':'20%', 'left':''}" ng-src="{{getopinion[82].imageUrl}}" ng-click="ShowPrivacyPolicy=true">
+                <img id="okvirInputFieldEmailsignup" ng-style="{'top':'30%', 'left':''}" ng-src="{{getopinion[83].imageUrl}}" ng-click="ShowTermsOfService=true">
+                <img id="okvirInputFieldEmailsignup" ng-style="{'top':'40%', 'left':''}" ng-src="{{getopinion[81].imageUrl}}" ng-click="logout()">
+                <img id="okvirInputFieldEmailsignup" ng-style="{'top':'50%', 'left':''}" ng-src="{{getopinion[84].imageUrl}}" ng-click="NODELETEBETAACCOUNT=true">
+
+            </div>
+
+            <div ng-show="ShowPrivacyPolicy==true">
+                <div id="LoginTextHeader" ng-style="{'top':'25%', 'left':'5%'}" ng-click="ShowPrivacyPolicy=false">Privacy Policy</div>
+
+            </div>
+
+            <div ng-show="ShowTermsOfService==true">
+                <div id="LoginTextHeader" ng-style="{'top':'25%', 'left':'5%'}" ng-click="ShowTermsOfService=false">Terms Of Service</div>
+
+            </div>
+
+
+            <div ng-show="NODELETEBETAACCOUNT==true">
+                <div id="LoginTextHeader" ng-style="{'top':'25%', 'left':'5%'}" ng-click="NODELETEBETAACCOUNT=false">BETA TESTERS<br /> Can not delete account.</div>
+
+            </div>
+
+        </div>-->
+        <a twitter data-text="Gowemy app " data-url="http://gowemy.com" id="okvirInputFieldEmailsignup" ng-style="{'top':'15%', 'left':'40%','width':'100%'}"></a>
+
+        <div class="fb-share-button" data-href="http://gowemy.com" data-layout="button" ng-style="{'position':'fixed','top':'35%', 'left':'40%','width':'100%'}"></div>
+
+
+        <div id="fb-root" ng-style="{'position':'fixed','top':'35%', 'left':'40%','width':'100%'}"></div>
+        <script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>

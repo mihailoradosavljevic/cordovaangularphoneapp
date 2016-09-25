@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+
+<body>
+
+    
+
+        <div ng-controller="swipeAbout">
+            
+            <img id="POZADINACela" ng-style="{'height':'100%','width':'auto'}" ng-src="{{aboutscreen2[76].imageUrl}}">
+            <!--<a href="#/splash-gowemy" class="thumb"></a>-->
+
+            <img id="ActionBarPozadina" ng-src="{{aboutscreen2[70].imageUrl}}">
+            <img id="ActionBarPozadina" ng-style="{'top':'95%'}" ng-src="{{aboutscreen2[70].imageUrl}}">
+            
+            <img id="linija" ng-src="{{aboutscreen2[12].imageUrl}}">
+
+            <div id="LoginTextHeader" ng-style="{'top':'2.4%'}">Swipe to tour </div>
+
+
+            <!--<div id="derp" class="slideable" slide-toggle="#derp">-->
+
+
+                <div class="pageAbout"  ng-swipe-left="slikaLevo()" ng-swipe-right="slikaDesno()" >
+
+
+                    <img id="about1"  ng-src="{{aboutscreen2[TrenutnaSlika+pozadinaSlikaAbout].imageUrl}}">
+
+                        <img id="about1"  ng-style="{ '-webkit-animation-name': StilLevoDesno,'animation-name': StilLevoDesno,'-o-animation-name': StilLevoDesno,'-moz-animation-name': StilLevoDesno,'-ms-animation-name': StilLevoDesno }"  ng-src="{{aboutscreen2[TrenutnaSlika].imageUrl}}" >
+                    
+                    
+                    
+                    
+                    <!--<div ng-if="StilLevoDesno='bounceInSlide'" ng-init="changeDirection()">
+                        ng-style="{ 'animation-name': StilLevoDesno }"
+                        ng-style="{ '-webkit-animation-name': '{{StilLevoDesno}}','animation-name': '{{StilLevoDesno}}','-o-animation-name': '{{StilLevoDesno}}','-moz-animation-name': '{{StilLevoDesno}}','-ms-animation-name': '{{StilLevoDesno}}' }"
+                    </div>-->
+                    
+                </div>
+                <!--<div  ng-show="showActions" ng-swipe-left="slikaLevo()" ng-swipe-right="slikaDesno()" >
+
+
+                    <img id="about2"  ng-style="{ 'animation-name': StilLevoDesno }"  ng-src="{{aboutscreen2[TrenutnaSlika].imageUrl}}" >
+
+                </div>-->
+
+            <img id="actionBracket" ng-src="{{aboutscreen2[17].imageUrl}}" ng-click="goBackPage()">
+            </div>
+    
+</body>
+</html>

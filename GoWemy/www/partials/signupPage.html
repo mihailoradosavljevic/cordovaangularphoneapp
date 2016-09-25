@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div></div>
+
+
+    <div ng-controller="signupController">
+
+        <img id="POZADINACela" ng-style="{'height':'100%','width':'auto'}" ng-src="{{signupData[76].imageUrl}}">
+
+        <!--<br />
+        ODGOVOR{{ODGOVOR11}}
+        <br />
+        GRESKA {{GRESKA1}}
+        <br />-->
+
+        <img id="ActionBarPozadina" ng-src="{{signupData[70].imageUrl}}">
+
+        <img id="actionBracket" ng-src="{{signupData[17].imageUrl}}" ng-click="goBackPageSignup1()">
+        <img id="linija" ng-src="{{signupData[12].imageUrl}}">
+
+        <div id="LoginTextHeader" ng-style="{'font-size': HeaderText,'top':'2.4%'}" >Sign up</div>
+
+        <img id="okvirInputFieldEmailsignup" ng-src="{{signupData[19].imageUrl}}">
+        <input  ng-model="USEREMAIL" type="text" placeholder="Email" id="useremailsignup" ng-style="{'font-size': FontSignupLoginTextBoxes}"  />
+
+
+        <img id="okvirInputFieldUsernamesignup" ng-src="{{signupData[19].imageUrl}}">
+        <input  ng-model="USERNAME" type="text" id="usernamesignup" ng-style="{'font-size': FontSignupLoginTextBoxes}" placeholder="Username"/>
+
+        <img id="okvirInputFieldPasswordsignup" ng-src="{{signupData[19].imageUrl}}">
+        <input  ng-model="USERPASSWORD" type="text" id="userpasswordsignup" ng-style="{'font-size': FontSignupLoginTextBoxes}" placeholder="Password"/>
+
+
+        <img id="okvirInputFieldConfirmPasswordsignup" ng-src="{{signupData[19].imageUrl}}">
+        <input  ng-model="CONFIRMUSERPASSWORD" type="text" id="confirmuserpasswordsignup" ng-style="{'font-size': FontSignupLoginTextBoxes}" placeholder="Confirm Password"/>
+
+        <!--<img id="USERPICTURESLOT" ng-style="{ 'position':'fixed','top': '35%','left':'35%', 'width': '40%', 'height':'auto' }" ng-src="{{BASTASLIKA}}">-->
+
+        <!--<div id="LoginTextConditions" ng-style="{'font-size': FontIspodFacebooka}">* By using GoWemy you agree to the terms and conditions</div>-->
+
+
+        <img id="buttonSignUpPage"  ng-src="{{signupData[20].imageUrl}}" ng-click="SIGNUP()">
+
+
+        <!--<form name="myFormNg" action="http://188.166.27.237/register"
+       enctype="multipart/form-data"
+       method="post">
+
+            <input name="email" ng-model="myFormNg.email" type="text" id="useremailsignup">
+
+
+            <input name="username" ng-model="myFormNg.username" type="text" id="usernamesignup">
+
+
+            <input name="password" ng-model="myFormNg.password" type="text" id="userpasswordsignup">
+            <br />
+            <br />
+            <br />
+            <br />
+            
+
+            <a href="#/partials/signUp2" class="thumb" ng-click="">
+                <input type="submit" value="" style="background:url({{signupData[20].imageUrl}}); border: 0;display: block;position: absolute;top:65%;left:0;right:0;margin-left:auto;margin-right:auto;width: 70%;height: 6%;opacity:0.1;">
+            </a>
+                <input type="reset" value="Reset">
+            
+
+
+</form>-->
+        <img id="wemyLogoVeliki" ng-style="{'top':'80%','left':'10%','width':'80%','opacity':'1'}" ng-src="{{signupData[85].imageUrl}}">
+
+
+
+        <div ng-show="PrikaziDialogGeneral==true" >
+
+            <img id="ZATAMNJENJE" ng-style="{'width':'130%','top':'8%','opacity':'0.4' }" ng-src="{{signupData[13].imageUrl}}">
+
+            <img id="DIALOGGENERAL" ng-src="{{signupData[72].imageUrl}}" ng-click="SKOKnaLOGIN()">
+
+            <div id="MESSAGEREG" ng-style="{'font-size': FontSignupLoginTextBoxes}" ng-click="SKOKnaLOGIN()" >Registration Success please Login!</div>
+
+
+        </div>
+        
+
+        
+
+    </div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    
+
+
+        <div class="container-fluid"> 
+
+            <img id="POZADINACela" ng-style="{'top':'0%','height':'100%','width':'auto'}" ng-src="{{splashscreen[76].imageUrl}}">
+
+            <div ng-controller="splashCtrl">
+
+                <div ng-show="SplashTimer1==true">
+
+                    <div id="SPLASHCONTAINER1">
+
+                    <img id="VELIKOEUVODNO" ng-class="{'VELIKOEUVODNO': SplashTimer1==false,'VELIKOEUVODNOklasa': SplashTimer1==true}" ng-src="{{splashscreen[73].imageUrl}}">
+
+
+                      </div>
+                </div>
+
+                <div ng-show="SplashTimer2==true">
+                     
+                    <a href="http://gowemy.com/" class="thumb"><img id="wemyLogoVeliki1" ng-style="{'top':'45%','opacity':'0'}" ng-class="{'VELIKOEUVODNOklasa1': SplashTimer2==true}" ng-src="{{splashscreen[3].imageUrl}}"></a>
+
+
+
+                </div>
+
+
+
+
+                <div id="SPLASHCONTAINER2" ng-show="SplashTimer3==true"  >
+
+                    <a href="#/partials/about2" class="thumb"><img id="taketourBtn"  ng-class="{'VELIKOEUVODNOklasa2':SplashTimer3==true}"  ng-src="{{splashscreen[1].imageUrl}}"></a>
+
+
+
+
+                    <a href="http://gowemy.com/" class="thumb"><img id="wemyLogoVeliki1"    ng-class="{'VELIKOEUVODNOklasa3':SplashTimer3==true}"  ng-src="{{splashscreen[3].imageUrl}}" ></a>
+
+                    <!--<a href="http://gowemy.com/" class="thumb">    ng-style="{'opacity':'0'}"     <img ng-class="{'wemyLogoVeliki2':SplashTimer4==false,'wemyLogoVeliki1':SplashTimer4==true}"  ng-src="{{splashscreen[3].imageUrl}}"></a>-->
+
+                    <!--TO Jr-->
+
+
+
+ 
+
+
+
+                    <a href="#/partials/loginPage" class="thumb"><img id="wemyLogin"  ng-class="{'VELIKOEUVODNOklasa2':SplashTimer3==true}"   ng-src="{{splashscreen[5].imageUrl}}"></a>
+
+                    <a href="#/partials/signupPage" class="thumb"><img id="wemySignup"  ng-class="{'VELIKOEUVODNOklasa2':SplashTimer3==true}"  ng-src="{{splashscreen[16].imageUrl}}"></a>
+
+
+
+                    <!--<a href="https://www.facebook.com/login.php?" class="thumb">  id="wemyLogoVeliki1"  <img id="FacebookLogin" ng-src="{{splashscreen[4].imageUrl}}"> id="wemySignup"</a>
+
+
+                     <p id="AsteriskFacebookText" ng-style="{'font-size': FontIspodFacebooka}">* We do not post anything to Facebook</p>-->
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </body>
+</html>

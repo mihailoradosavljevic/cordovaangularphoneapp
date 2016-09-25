@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div></div>
+
+
+
+    <div ng-controller="getOpinionCtrl">
+        <img id="POZADINACela" ng-style="{'height':'100%','width':'auto'}" ng-src="{{getopinion[76].imageUrl}}">
+
+        
+
+
+
+        <div ng-show="UMETNUTO==false" id="KROJENJEMENUBLURprofile" ng-style="{'width':ProfileMeniSlikaX,'height':ProfileMeniSlikaY}">
+            <img  ng-style="{'position':'relative','width':'100%','top':'-30%'}" ng-src="{{getopinion[67].imageUrl}}">
+            <!--<img id="USERPICTURESLOTklasaportret2" ng-style="{'height':VISINASLIKEuvelikomKrugu,'width':'auto','opacity':'1'}" src="{{BASTASLIKA}}">-->
+        </div>
+
+
+        <div ng-show="UMETNUTO==true" id="KROJENJEMENUBLURprofile" ng-style="{'width':ProfileMeniSlikaX,'height':ProfileMeniSlikaY}">
+            <img src="{{UserSlikaURLdobijen}}" ng-style="{'position':'relative','width':'100%','top':'-30%'}" />
+            <!--<img id="ZATAMNJENJE1" ng-style="{'width':'130%','top':'6%','opacity':'0.7'}" ng-src="{{getopinion[71].imageUrl}}">-->
+        </div>
+
+
+
+
+
+        <img id="ActionBarPozadina" ng-src="{{getopinion[70].imageUrl}}">
+
+
+        
+
+
+        <div id="LoginTextHeader" ng-style="{'top':'2.4%', 'left':'5%','font-size': FontUsernameHeader}">{{UserNAMEinfo}}</div>
+
+        
+
+
+        <!--<div id="UsernameTextLOGOUT" ng-style="{'font-size': FontLogout}" ng-click="logout()"> LOGOUT</div>-->
+
+
+        <img id="menuBtn" ng-style="{ 'top':'2.4%','left' : '90%','opacity':'1','width':'8%','height':'auto' }" ng-src="{{getopinion[59].imageUrl}}">
+
+
+
+
+        <div ng-controller="userprofileController">
+
+
+
+
+            <!--<div id="TextTakePhoto" ng-style="{'top':'15%','left':'5%','font-size': FontTakePicture}">
+
+                User: {{UserNAMEinfo}}
+                <br/>
+                <br />
+                Email: {{UserEMAILinfo}}
+                <br />
+                <br />
+                Gender: {{UserGENDERTXTinfo}}
+                <br />
+                <br />
+                Country: {{UserCOUNTRYinfo}}
+                <br />
+                <br />
+                Short Bio: {{UserABOUTinfo}}
+                <br />
+                <br />-->
+               
+
+            <!--</div>-->
+            
+            <div id="TextTakePhoto2" ng-style="{'top':'44%','left':'2%','font-size': FontTakePicture}">
+
+                {{UserNAMEinfo}}
+
+
+            </div>
+
+        <div id="TextTakePhoto2" ng-style="{'top':'55%','left':'3%','font-size': FontSignupLoginTextBoxes3}">
+
+            {{UserABOUTinfo}}
+
+
+        </div>
+
+            <div style="position:fixed;height:100%; width: 100%;text-align: center; overflow: hidden;">
+                <img ng-style="{'position':'relative','width':'80%','top':'47%'}" ng-src="{{getopinion[12].imageUrl}}" />
+
+            </div>
+            
+            <img id="menuBtn" ng-style="{ 'top':'45%','left' : '90%','opacity':'1','width':'8%','height':'auto' }" ng-src="{{getopinion[50].imageUrl}}">
+
+
+            <img id="actionBracket" ng-src="{{getopinion[17].imageUrl}}" ng-click="goBackPageAppsettings()">
+        </div>
+
+       
+
+
+    </div>
+
+
+
+
+
+</body>
+</html>

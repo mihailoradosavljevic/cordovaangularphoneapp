@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    
+    <div ng-controller="refresherControl">
+
+        <div ng-controller="getOpinionCtrl">
+            <img id="POZADINACela" ng-style="{'height':'100%','width':'auto'}" ng-src="{{getopinion[76].imageUrl}}">
+
+            <img id="ActionBarPozadina" ng-src="{{getopinion[70].imageUrl}}">
+
+
+
+
+            <div id="ParentPunjenje" ng-style="{ '-webkit-transform-origin': '50% 50%',
+
+             '-moz-transform-origin': '50% 50%',
+             '-ms-transform-origin': '50% 50%',
+             '-o-transform-origin': '50% 50%',
+             'transform-origin': '50% 50%',
+                'transform': LUKrotacija, '-webkit-transform': LUKrotacija, '-ms-transform': LUKrotacija,'top':y, 'left':x}">
+
+                <div id="ARCpunjenje" round-progress
+                     max="120"
+                     current="99.5"
+                     color="url(#gradient)"
+                     bgcolor="Transparent"
+                     radius="{{KRUGPRECNIK}}"
+                     stroke="{{KRUGSTROKE}}"
+                     semi="false"
+                     rounded="true"
+                     clockwise="false"
+                     iterations="60"
+                     animation="easeInOutSine">
+
+                    <svg>
+                        <linearGradient id="gradient" x1="1" x2="0" y1="0" y2="0">
+                            <stop offset="20%" stop-color="#8e4039" />
+                            <stop offset="100%" stop-color="#b0d138" />
+                        </linearGradient>
+                    </svg>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!--REFRESH I VRACA NAZAD-->
+
+        </div>
+    </div>
+
+
+        
+</body>
+</html>

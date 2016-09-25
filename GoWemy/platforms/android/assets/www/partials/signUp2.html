@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+    
+    <div ng-controller="signUpController2">
+        <img id="POZADINACela" ng-style="{'height':'100%','width':'auto','opacity':'1'}" ng-src="{{signupData2[76].imageUrl}}">
+
+        <img id="ZATAMNJENJE1" ng-style="{'width':'130%','top':'7%','opacity':'1'}" ng-src="{{signupData2[71].imageUrl}}" >
+        <!--<img id="okvirInputFieldEmail" ng-style="{'width':'100%','top':'7%','opacity':'1'}" ng-src="{{signupData2[80].imageUrl}}">-->
+        <div ng-show="UserSlikaURLdobijen!=''">
+            <img id="USERPICTURESLOTklasaportret" ng-style="{'height':VISINASLIKEsgnup2,'width':'auto','opacity':'1'}" src="{{UserSlikaURLdobijen}}">
+        </div>
+
+        <div ng-show="BASTASLIKA!=''">
+            <img id="USERPICTURESLOTklasaportret" ng-style="{'height':VISINASLIKEsgnup2,'width':'auto','opacity':'1'}" src="{{BASTASLIKA}}">
+        </div>
+
+        <!--POZADINAMASKAUSER  ng-style="{'top':yMaskaPosition,'left':'5%','width':'100%','opacity':'0'}"-->
+
+        <img id="POZADINACela" ng-style="{'height':'100%','width':'auto','opacity':'1'}" ng-src="{{signupData2[78].imageUrl}}">
+
+        <img id="ActionBarPozadina"  ng-src="{{signupData2[70].imageUrl}}">
+
+        
+
+        <a href="#/splash-gowemy" class="thumb"><img id="actionBracket" ng-src="{{signupData2[17].imageUrl}}"></a>
+        <img id="linija" ng-src="{{signupData2[12].imageUrl}}">
+
+        <div id="LoginTextHeader" ng-style="{'top':'2.4%','font-size': FontUsernameHeader*0.8}">Sign up step 2</div>
+        <!--<div id="UsernameTextHeader" ng-style="{'font-size': FontUsernameHeader}">{{BETAUSER}}</div>-->
+
+
+        <div id="useremailsignup" ng-style="{ 'top': '9%', 'width': '60%', 'text-align':'center','font-family':'WemyFont1','font-size': FontSignupLoginTextBoxes*0.7}">You confirmed your account</div>
+        <div id="useremailsignup" ng-style="{ 'top': '16.2%','left':'5.4%', 'width': '60%', 'margin-left':'5.5%','font-family':'WemyFont1','font-size':FontSignupLoginTextBoxes}">About</div>
+
+        <img id="okvirInputFieldEmail" ng-style="{ 'top': '20%', 'width': '80.5%','height':'15%' }" ng-src="{{signupData2[52].imageUrl}}">
+        <textarea  ng-model="$parent.ShortBio1" type="text"  id="useremailsignup" maxlength="90" ng-style="{ 'top': '21.4%', 'width': '78%','height':'10%'}" placeholder="Write short info about you" ></textarea>
+        
+        <img id="okvirInputFieldEmail" ng-style="{ 'top': '35%', 'width': '81%' }" ng-src="{{signupData2[53].imageUrl}}">
+        <input ng-model="dialogBirthday1" type="text" id="useremailsignup" ng-style="{ 'top': '36.95%','left':'5.6%', 'width': '66%', 'margin-left':'6.6%','font-size':FontSignupLoginTextBoxes*0.8}" placeholder="YYYY" />
+
+
+        <img id="okvirInputFieldEmail" ng-style="{ 'top': '42%', 'width': '81%' }" ng-src="{{signupData2[55].imageUrl}}">
+        <div id="useremailsignup" ng-style="{ 'top': '43.85%','left':'5.6%', 'width': '66%', 'margin-left':'6.6%','font-size':FontSignupLoginTextBoxes*0.8}">Gender</div>
+        <!--<input type="radio" id="FemaleRadiobutton" ng-model="USERgender.gender" value="1">
+        <input type="radio" id="MaleRadiobutton" ng-model="USERgender.gender" value="2">-->
+        <!--ng-minlength="4" ng-maxlength="4" min="1900" max="2005"--> 
+
+
+
+        <div ng-show="UserGender==2">
+            <img id="FemaleRadiobutton" ng-src="{{signupData2[56].imageUrl}}" ng-style="{ 'top': '44.5%','left':'', 'width': '5%' }" ng-click="ChangeGender()">
+            <img id="MaleRadiobutton" ng-src="{{signupData2[58].imageUrl}}" ng-style="{ 'top': '44.5%','left':'', 'width': '5%' }" >
+        </div>
+
+        <div ng-show="UserGender==1">
+            <img id="FemaleRadiobutton" ng-src="{{signupData2[58].imageUrl}}" ng-style="{ 'top': '44.5%','left':'', 'width': '5%' }" >
+            <img id="MaleRadiobutton" ng-src="{{signupData2[56].imageUrl}}" ng-style="{ 'top': '44.5%','left':'', 'width': '5%' }" ng-click="ChangeGender()">
+        </div>
+
+        <img id="okvirInputFieldEmail" ng-style="{ 'top': '49%', 'width': '81%' }" ng-src="{{signupData2[54].imageUrl}}">
+        <input ng-model="dialogCountry1" type="text"  id="useremailsignup" ng-style="{ 'top': '50.9%','left':'5.6%', 'width': '66%', 'margin-left':'6.6%','font-size':FontSignupLoginTextBoxes*0.8}" placeholder="Country" />
+
+
+        <img id="okvirInputFieldEmail" ng-style="{ 'top': '56%', 'width': '81%' }" ng-src="{{signupData2[44].imageUrl}}" camera ng-model='myPicture'>
+        <!--<div id="useremailsignup" ng-style="{ 'top': '58%', 'text-align':'center','font-family':'WemyFont1','font-size':FontSignupLoginTextBoxes*0.8}" >Take a photo</div>-->
+        <img id="okvirInputFieldEmail" ng-style="{ 'top': '56%', 'width': '81%','opacity':'0.01' }" ng-src="{{signupData2[74].imageUrl}}" camera ng-model='myPicture'>
+
+
+        <img id="okvirInputFieldEmail" ng-style="{ 'top': '63%', 'width': '81%' }" ng-src="{{signupData2[43].imageUrl}}" album ng-model='myPictureAlbum'>
+        <!--<div id="useremailsignup" ng-style="{ 'top': '65%', 'text-align':'center','font-family':'WemyFont1','font-size':FontSignupLoginTextBoxes*0.8}" >Select image from galery</div>-->
+        <img id="okvirInputFieldEmail" ng-style="{ 'top': '63%', 'width': '81%','opacity':'0.01' }" ng-src="{{signupData2[74].imageUrl}}" album ng-model='myPictureAlbum'>
+
+
+
+
+
+
+        <img id="okvirInputFieldEmail" ng-style="{ 'top': '90%', 'width': '81%' }" ng-src="{{signupData2[42].imageUrl}}" ng-click="UploadRegister2Podatke()" >
+
+
+        <!--<img id="USERPICTURESLOT" ng-style="{ 'top': '73%','left':'35%', 'width': '30%', 'height':'auto' }" ng-src="{{signupData2[56].imageUrl}}" ng-click="UploadUserPhotoUSER()">-->
+
+        
+
+        <div ng-repeat="onepicUser in myPicturesUser">
+            <!--<img ng-src="{{onepicUser}}" ng-style="{ 'position':'fixed','top': '15%','left':'15%', 'width': '40%', 'height':'auto' }" alt="error" id="stream1" />-->
+            <div ng-show="BrojacSkoka==1 || USERSLIKAPOTVRDA==true || BrojacSkoka==2">
+
+                <img ng-src="{{onepicUser}}" alt="error"  ng-click="UploadUserPhotoUSER();USERSLIKAPOTVRDA=false;BrojacSkoka=0;" class="horizontal" orientable/>
+                <!--<img id="ZATAMNJENJE1" ng-style="{'width':'130%','top':'7%','opacity':'0.6'}" ng-src="{{signupData2[71].imageUrl}}">-->
+            </div>
+
+        </div>
+
+
+        <div ng-repeat="onepicUserAlbum in myPicturesAlbumUser">
+            <!--<img ng-src="{{onepicUserAlbum}}" ng-style="{ 'position':'fixed','top': '15%','left':'15%', 'width': '40%', 'height':'auto' }" alt="error" id="stream1" />-->
+            <div ng-show="BrojacSkoka==1 || USERSLIKAPOTVRDA==true || BrojacSkoka==2">
+
+                <img ng-src="{{onepicUserAlbum}}" alt="error"   ng-click="UploadUserPhotoUSER();USERSLIKAPOTVRDA=false;BrojacSkoka=0;" class="horizontal" orientable/>
+                <!--<img id="ZATAMNJENJE1" ng-style="{'width':'130%','top':'7%','opacity':'0.6'}" ng-src="{{signupData2[71].imageUrl}}">-->
+            </div>
+
+        </div>
+
+
+
+         
+        <!--ng-style="{'width':'25%','height':'auto','left':'35'}"-->
+
+
+        <div id="NEKIKANVAS">
+        
+        </div>
+        
+        
+    
+        <!--<div ng-show="BrojacSkoka==2 || BrojacSkoka==1">
+
+            <img ng-src="{{onepicUser}}" alt="error" id="stream1"  />
+            <img ng-src="{{onepicUserAlbum}}" alt="error" id="stream1"  />
+            <img id="ZATAMNJENJE1" ng-style="{'width':'130%','top':'7%','opacity':'0.6'}" ng-src="{{signupData2[71].imageUrl}}" ng-click="UploadUserPhotoUSER();BrojacSkoka=0;">
+        </div>-->
+
+        <div ng-show="BrojacSkoka==1 || BrojacSkoka==2">
+
+
+            <img id="ZATAMNJENJE1" ng-style="{'width':'130%','top':'7%','opacity':'0.6'}" ng-src="{{signupData2[71].imageUrl}}" ng-click="UploadUserPhotoUSER()">
+            <div id="useremailsignup" ng-style="{ 'top': '55%', 'text-align':'center','font-family':'WemyFont1','font-size':FontSignupLoginTextBoxes*2}" ng-click="UploadUserPhotoUSER()">CONFIRMATION</div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    
+    <div></div>
+
+
+
+    <div ng-controller="getOpinionCtrl">
+        <img id="POZADINACela" ng-style="{'height':'100%','width':'auto'}" ng-src="{{getopinion[76].imageUrl}}">
+
+
+
+        <img id="ActionBarPozadina" ng-src="{{getopinion[70].imageUrl}}">
+
+
+        <img id="linija" ng-src="{{getopinion[12].imageUrl}}">
+
+        <div id="LoginTextHeader" ng-style="{'top':'2.2%', 'left':'9%','font-size': FontUsernameHeader}">App settings</div>
+
+        
+
+
+        <!--<div id="UsernameTextLOGOUT" ng-style="{'font-size': FontLogout}" ng-click="logout()"> LOGOUT</div>-->
+  
+
+        <img id="menuBtn" ng-style="{ 'top':'2.4%','left' : '9%','opacity':'1' }"  ng-src="{{getopinion[49].imageUrl}}">
+
+        <div ng-controller="appsettingsController">
+
+            <div ng-show="ShowPrivacyPolicy==false && ShowTermsOfService==false && NODELETEBETAACCOUNT==false">
+                <img id="okvirInputFieldEmailsignup" ng-style="{'top':'20%', 'left':''}" ng-src="{{getopinion[19].imageUrl}}" ng-click="ShowPrivacyPolicy=true">
+                <div id="LoginTextHeader" ng-style="{'top':'21.5%', 'left':'1%','font-size': FontUsernameHeader}" ng-click="ShowPrivacyPolicy=true">Privacy policy</div>
+                <div id="LoginTextHeader" ng-style="{'top':'21.5%', 'left':'1%','font-size': FontUsernameHeader,'opacity':'0'}" ng-click="ShowPrivacyPolicy=true">#####################</div>
+
+                <img id="okvirInputFieldEmailsignup" ng-style="{'top':'30%', 'left':''}" ng-src="{{getopinion[19].imageUrl}}" ng-click="ShowTermsOfService=true">
+                <div id="LoginTextHeader" ng-style="{'top':'31.5%', 'left':'1%','font-size': FontUsernameHeader}" ng-click="ShowTermsOfService=true">Terms of service</div>
+                <div id="LoginTextHeader" ng-style="{'top':'31.5%', 'left':'1%','font-size': FontUsernameHeader,'opacity':'0'}" ng-click="ShowTermsOfService=true">#####################</div>
+
+                
+                <img id="okvirInputFieldEmailsignup" ng-style="{'top':'40%', 'left':''}" ng-src="{{getopinion[19].imageUrl}}" ng-click="logout()">
+                <div id="LoginTextHeader" ng-style="{'top':'41.5%', 'left':'1%','font-size': FontUsernameHeader}" ng-click="logout()">Logout</div>
+                <div id="LoginTextHeader" ng-style="{'top':'41.5%', 'left':'1%','font-size': FontUsernameHeader,'opacity':'0'}" ng-click="logout()">#####################</div>
+
+                
+                <img id="okvirInputFieldEmailsignup" ng-style="{'top':'50%', 'left':''}" ng-src="{{getopinion[19].imageUrl}}" ng-click="NODELETEBETAACCOUNT=true">
+                <div id="LoginTextHeader" ng-style="{'top':'51.5%', 'left':'1%','font-size': FontUsernameHeader}" ng-click="NODELETEBETAACCOUNT=true">Delete account</div>
+                <div id="LoginTextHeader" ng-style="{'top':'51.5%', 'left':'1%','font-size': FontUsernameHeader,'opacity':'0'}" ng-click="NODELETEBETAACCOUNT=true">#####################</div>
+
+                
+                <!--<button onclick="window.plugins.socialsharing.share('GOWEMY',null, null, 'http://gowemy.com')" id="okvirInputFieldEmailsignup" ng-style="{'top':'80%', 'left':''}" >TWITER SHARE</button>-->
+              
+                <!--<a twitter data-text="Your text: Samo ovo" data-url="http://127.0.0.1:3000/{{file.link}}" id="okvirInputFieldEmailsignup" ng-style="{'top':'90%', 'left':''}">twiter</a>-->
+                
+                
+                  <!--<button onclick="window.plugins.socialsharing.shareViaTwitter('Message via Twitter')">message via Twitter</button>-->
+            </div>
+
+            <div ng-show="ShowPrivacyPolicy==true">
+                <div id="LoginTextHeader" ng-style="{'top':'25%', 'left':'5%','font-size': FontUsernameHeader}" ng-click="ShowPrivacyPolicy=false">Privacy Policy</div>
+
+            </div>
+
+            <div ng-show="ShowTermsOfService==true">
+                <div id="LoginTextHeader" ng-style="{'top':'25%', 'left':'5%','font-size': FontUsernameHeader}" ng-click="ShowTermsOfService=false">Terms Of Service</div>
+
+            </div>
+
+
+            <div ng-show="NODELETEBETAACCOUNT==true">
+                <div id="LoginTextHeader" ng-style="{'top':'25%', 'left':'5%','font-size': FontUsernameHeader}" ng-click="NODELETEBETAACCOUNT=false">BETA TESTERS<br /> Can not delete account.</div>
+                
+            </div>
+
+            <img id="actionBracket" ng-src="{{getopinion[17].imageUrl}}" ng-click="goBackPageAppsettings()">
+          
+        </div>
+      
+        <img id="wemyLogoVeliki" ng-style="{'top':'80%','left':'20%','width':'60%','opacity':'1'}" ng-src="{{getopinion[85].imageUrl}}">
+
+
+    </div>
+
+
+
+
+
+</body>
+</html>

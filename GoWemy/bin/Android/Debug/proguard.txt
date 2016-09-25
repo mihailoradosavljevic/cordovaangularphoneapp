@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:6
+-keep class io.cordova.myappbd5516fa97684be68a7b5a238e7cc7ef.MainActivity { <init>(...); }
+

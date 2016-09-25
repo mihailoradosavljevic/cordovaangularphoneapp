@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div></div>
+
+    <div ng-controller="getOpinionCtrl">
+        <!--<a href="#/splash-gowemy" class="thumb"><img id="gobackBtn" ng-src="{{getopinion[0].imageUrl}}"></a>-->
+
+        <img id="POZADINACela" ng-style="{'height':'100%','width':'auto'}" ng-src="{{getopinion[76].imageUrl}}">
+
+        <img id="ActionBarPozadina" ng-src="{{getopinion[70].imageUrl}}">
+
+        <img id="linija" ng-src="{{getopinion[12].imageUrl}}">
+
+
+
+
+        <!--<a href="#/partials/results" class="thumb">
+        </a>-->
+
+
+
+        
+
+
+
+
+
+
+
+
+
+        <!--<div id="UsernameTextHeader" ng-style="{'font-size': FontUsernameHeader}">{{BETAUSER}}</div>-->
+
+
+        <!--<img ng-show="" />-->
+
+
+        <div ng-controller="PostIndexCtrl">
+
+
+
+
+
+
+            <div class="pageAbout" ng-swipe-left="ocenaNe();styleNE=false;styleDa=false;GOTOVAANIMACIJASLIKE=true;" ng-swipe-right="ocenaDa();styleNE=false;styleDa=false;GOTOVAANIMACIJASLIKE=true;">
+
+
+                <img ng-show="RefreshStreamLUK==true && RefreshStream==true || streamSlikaTrenutna==0" id="posss" ng-src="{{stream.data[streamSlikaTrenutna].public_url}}">
+                
+                <div ng-show="RefreshStreamLUK==true && RefreshStream==true || streamSlikaTrenutna==0" id="UsernameTextHeader" ng-style="{'font-size': FontUsernameHeader}">{{stream.data[streamSlikaTrenutna].username}}</div>
+                
+                <div ng-show="RefreshStreamLUK==false && RefreshStream==false || streamSlikaTrenutna!=0" id="UsernameTextHeader" ng-style="{'font-size': FontUsernameHeader}">{{stream.data[streamSlikaTrenutna+1].username}}</div>
+
+                <img id="posss" ng-src="{{stream.data[streamSlikaTrenutna+1].public_url}}">
+
+                    <div ng-show="styleNE==true">
+                        <!--<img id="posss" ng-src="{{stream.data[streamSlikaTrenutna+1].public_url}}">-->
+                        <!--<img id="posss" ng-src="{{stream.data[streamSlikaTrenutna].public_url}}">-->
+                        <img  ng-class="{'animacijaOceneDa': styleDa==true,'animacijaOceneNe': styleNE==true }" ng-src="{{stream.data[streamSlikaTrenutna].public_url}}">
+                        <img ng-style="{'width':'35%','height':'auto','top':'50%','left':'25%'}" class="animacijaOceneNeNOPE" ng-src="{{getopinion[39].imageUrl}}">
+
+                    </div>
+                <!--ng-class="{'animacijaOceneDa': styleDa==true,'animacijaOceneNe': styleNE==true }"-->
+
+
+
+                    <div ng-show="styleDa==true">
+                        <!--<img id="posss" ng-src="{{stream.data[streamSlikaTrenutna+1].public_url}}">-->
+                        <!--<img id="posss" ng-src="{{stream.data[streamSlikaTrenutna].public_url}}">-->
+                        <img ng-class="{'animacijaOceneDa': styleDa==true,'animacijaOceneNe': styleNE==true }" ng-src="{{stream.data[streamSlikaTrenutna].public_url}}">
+                        <img ng-style="{'width':'35%','height':'auto','top':'20%','left':'45%'}" class="animacijaOceneDaLIKE" ng-src="{{getopinion[36].imageUrl}}">
+
+                    </div>
+
+                
+
+
+
+                <!--ng-class="{'animacijaOceneDa': styleDa==true,'animacijaOceneNe': styleNE==true }"-->
+
+                    <img id="maskaDiamond" ng-src="{{getopinion[68].imageUrl}}">
+                
+                <div id="LoginTextHeader" ng-style="{'top':'77%','left':'-6%','font-size': HASHTAGtextsize}"># {{stream.data[streamSlikaTrenutna].hashtags[0]+'?'}} </div>
+
+                    <img id="ikonaNeOceni" ng-src="{{getopinion[14].imageUrl}}" ng-click="styleDa==false;ocenaNe();styleNE=false;styleDa=false;">
+                    <img id="ikonaDaOceni" ng-src="{{getopinion[15].imageUrl}}" ng-click="styleNE==false;ocenaDa();styleDa=false;styleNE=false;">
+
+                    
+                
+
+                    <!--<img id="follow1" ng-style="{ 'left': '5%' }" ng-src="{{getopinion[31].imageUrl}}">-->
+
+
+                    <div ng-show="PORUKAUSERUnemastrema==true">
+                        <div id="LoginTextHeader" ng-style="{'top':'40%','left':'-10%','text-align':'center','font-size': HASHTAGtextsize*0.8}">Currently no gowemys to vote try later...</div>
+                    </div>
+
+
+
+
+                    <div ng-show="RefreshStreamLUK==true && RefreshStream==true">
+                        <!--<div id="ParentPunjenje" ng-style="{ '-webkit-transform-origin': '50% 50%',
+
+            '-moz-transform-origin': '50% 50%',
+            '-ms-transform-origin': '50% 50%',
+            '-o-transform-origin': '50% 50%',
+            'transform-origin': '50% 50%',
+               'transform': LUKrotacija, '-webkit-transform': LUKrotacija, '-ms-transform': LUKrotacija,'top':y, 'left':x}">
+
+                           <div id="ARCpunjenje" round-progress
+                                max="120"
+                                current="99.5"
+                                color="url(#gradient)"
+                                bgcolor="#231f20"
+                                radius="{{KRUGPRECNIK}}"
+                                stroke="{{KRUGSTROKE}}"
+                                semi="false"
+                                rounded="true"
+                                clockwise="false"
+                                iterations="60"
+                                animation="easeInOutSine">
+
+                               <svg>
+                                   <linearGradient id="gradient" x1="1" x2="0" y1="0" y2="0">
+                                       <stop offset="20%" stop-color="#8e4039" />
+                                       <stop offset="100%" stop-color="#b0d138" />
+                                   </linearGradient>
+                               </svg>
+
+
+
+                           </div>
+
+
+                       </div>-->
+                        <img id="ZATAMNJENJE1" ng-style="{'width':'130%','top':'7%','opacity':'0.6'}" ng-src="{{getopinion[71].imageUrl}}">
+                        <div id="LoginTextHeader" ng-style="{'top':'25%','left':'10%','text-align':'center','font-size': HASHTAGtextsize*0.8}">Refreshing Gowemys...</div>
+                        <div id="COUNTDOWN">{{countDownStream_text}}</div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+            <div ng-show="styletrueGRUPA">
+
+                <img id="ZATAMNJENJE1" ng-style="{'width':'130%','top':'8%','opacity':'0.6' }" ng-src="{{getopinion[71].imageUrl}}" ng-click="styletrue=!styletrue;ZatvaranjeMenija();">
+
+                <div ng-show="UMETNUTO==true">
+                    <img ng-class="{'USERPICTURESLOTklasaportret1': styletrue==true,'USERPICTURESLOTklasaportret1OUT': styletrue==false }" ng-style="{'height':VISINASLIKEmalimeni,'width':'auto'}" src="{{UserSlikaURLdobijen}}">
+                </div>
+
+                <div ng-show="UMETNUTO==false">
+                    <img ng-class="{'USERPICTURESLOTklasaportret1': styletrue==true,'USERPICTURESLOTklasaportret1OUT': styletrue==false }" ng-style="{'height':'14%','width':'auto','top':'10%'}" src="{{getopinion[77].imageUrl}}">
+                </div>
+
+
+
+                <div ng-class="{'menuPozadina1': styletrue==true,'menuPozadina1OUT': styletrue==false }">
+
+                    <div id="UsernameTextHeadermenu" ng-style="{'font-size': FontUsernameHeader2}" ng-click="goToPage('/partials/userprofile')">{{BETAUSER}}</div>
+
+                    <!--<img ng-style="{'width':'100%'}" ng-src="{{getopinion[51].imageUrl}}">-->
+
+
+
+
+
+                    <img ng-style="{'width':'100%'}" ng-src="{{getopinion[51].imageUrl}}">
+
+
+
+                    <!--<img id="menuDUGMICI" ng-style="{'top':'24.5%'}" ng-src="{{getopinion[47].imageUrl}}" ng-click="goToPage('/partials/discoveryPref')">-->
+                    <img id="menuDUGMICI" ng-style="{'top':'30%'}" ng-src="{{getopinion[49].imageUrl}}" ng-click="goToPage('/partials/appsettings')">
+                    <div id="menuDUGMICI" ng-style="{'top':'30%','width':'45%', 'font-color':'white', 'opacity':'0'}" ng-click="goToPage('/partials/appsettings')">LINKKASUPPORTUUUUU</div>
+
+
+                    <img id="menuDUGMICI" ng-style="{'top':'45.5%'}" ng-src="{{getopinion[48].imageUrl}}">
+                    <div id="menuDUGMICI" ng-style="{'top':'45.5%','width':'45%', 'font-color':'white', 'opacity':'0'}"><a href="http://gowemy.com/support">LINKKASUPPORTU</a></div>
+
+
+
+
+                    <img id="menuDUGMICI" ng-style="{'top':'61.5%'}" ng-src="{{getopinion[50].imageUrl}}" ng-click="goToPage('/partials/shareGowemy')">
+                    <div id="menuDUGMICI" ng-style="{'top':'61.5%','width':'45%', 'font-color':'white', 'opacity':'0'}" ng-click="goToPage('/partials/shareGowemy')">LINKKASUPPORTUUUUU</div>
+
+
+                    <img id="menuDUGMICI" ng-style="{'top':'76.5%'}" ng-src="{{getopinion[46].imageUrl}}" ng-click="goToPage('/partials/about-screen')">
+                    <div id="menuDUGMICI" ng-style="{'top':'76.5%','width':'45%', 'font-color':'white', 'opacity':'0'}" ng-click="goToPage('/partials/about-screen')">LINKKASUPPORTUUUUU</div>
+
+                </div>
+            </div>
+
+            <img id="menuBtn" ng-style="{ 'opacity' : (styletrue==true) ? '1' : '0.5' }" ng-click="styletrue=!styletrue;ZatvaranjeMenija();" ng-src="{{getopinion[6].imageUrl}}">
+
+
+
+            
+
+
+
+        </div>
+
+        <img id="foticBtn" ng-style="{ 'opacity' : (styletrueFotic==true) ? '1' : '0.5' }" ng-src="{{getopinion[10].imageUrl}}" ng-click="styletrueFotic=!styletrueFotic;goToPage1('/partials/results')">
+
+
+
+        <img id="manjiLogoE" ng-style="{ 'opacity' :  '1'  }" ng-src="{{getopinion[69].imageUrl}}" ng-click="goToPage1('/partials/streamresults')">
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>
